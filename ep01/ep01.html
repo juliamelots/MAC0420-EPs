@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="Júlia Melo Teixeira dos Santos" content="EP01">
+	<title>Cronômetro e Timer</title>
+	<style>@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap')</style>
+	<link rel="stylesheet" href="ep01.css" />
+	<script src="ep01.js" defer></script>
+</head>
+
+<body>
+	<h2>EP01 - MAC0420/MAC5744</h2>
+
+    <center>
+		<table>
+			<tr>
+				<td>Tempo: </td>
+				<td><input id="time" type="text" size="5" value="00:00" readonly /> </td>
+            </tr>
+        </table>
+
+		<table id="kboard">
+			<tr>
+				<td><input class="btKBoard" type="button" value="7" /></td>
+				<td><input class="btKBoard" type="button" value="8" /></td>
+				<td><input class="btKBoard" type="button" value="9" /></td>
+			</tr>
+			<tr>
+				<td><input class="btKBoard" type="button" value="4" /></td>
+				<td><input class="btKBoard" type="button" value="5" /></td>
+				<td><input class="btKBoard" type="button" value="6" /></td>
+			</tr>
+			<tr>
+				<td><input class="btKBoard" type="button" value="1" /></td>
+				<td><input class="btKBoard" type="button" value="2" /></td>
+				<td><input class="btKBoard" type="button" value="3" /></td>
+			</tr>
+			<tr>
+				<td><input class="btKBoard" type="button" value="0" /></td>
+				<td><input class="btKBoard" id="btClear" type="button" value="Cl" /></td>
+			</tr>
+		</table>
+
+        <hr/>
+        <h1 id="clock">00 : 00 : 00</h1>
+        <hr/>
+
+		<table>
+			<tr>
+                <!-- Crono or Timer -->
+				<td><input id="btMode" type="button" size="10" value="Crono" /></td>
+                <!-- Start or Stop -->
+				<td><input id="btStart" type="button" size="10" value="Start" /></td>
+                <!-- Pause or Run -->
+				<td><input id="btPause" type="button" size="10" value="Pause" /></td>
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>

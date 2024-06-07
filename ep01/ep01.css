@@ -1,0 +1,48 @@
+body, input {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#clock {
+  font-family: "VT323", monospace;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btKBoard {
+  font-family: "VT323", monospace;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+
+  flex: 1;
+  text-align: center;
+  padding: 4px 12px;
+  background-color: aquamarine;
+}
+
+#kboard {
+  table-layout: fixed;
+}
+
+#kboard tr {
+  display: flex;
+}
+
+#kboard tr td {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#btClear, #btMode, #btStart, #btPause {
+  flex: 1;
+  text-align: center;
+  padding: 4px 12px;
+  background-color:lightcoral;
+}
